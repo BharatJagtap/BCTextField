@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA95C6BE16786E07002FA678 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA95C6BD16786E07002FA678 /* UIKit.framework */; };
+		AA95C6C016786E07002FA678 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA95C6BF16786E07002FA678 /* Foundation.framework */; };
+		AA95C6C216786E07002FA678 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA95C6C116786E07002FA678 /* CoreGraphics.framework */; };
+		AA95C6C816786E07002FA678 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA95C6C616786E07002FA678 /* InfoPlist.strings */; };
+		AA95C6CA16786E07002FA678 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA95C6C916786E07002FA678 /* main.m */; };
+		AA95C6CE16786E07002FA678 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA95C6CD16786E07002FA678 /* AppDelegate.m */; };
+		AA95C6DE16786E29002FA678 /* BCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = AA95C6D516786E29002FA678 /* BCTextField.m */; };
+		AA95C6DF16786E29002FA678 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA95C6D716786E29002FA678 /* FirstViewController.m */; };
+		AA95C6E016786E29002FA678 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = AA95C6D816786E29002FA678 /* left.png */; };
+		AA95C6E116786E29002FA678 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = AA95C6D916786E29002FA678 /* right.png */; };
+		AA95C6E216786E29002FA678 /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA95C6DA16786E29002FA678 /* SecondViewController_iPad.xib */; };
+		AA95C6E316786E29002FA678 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA95C6DC16786E29002FA678 /* SecondViewController.m */; };
+		AA95C6E416786E29002FA678 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA95C6DD16786E29002FA678 /* SecondViewController.xib */; };
+		AA95C6E716786E37002FA678 /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA95C6E516786E37002FA678 /* FirstViewController_iPad.xib */; };
+		AA95C6E816786E37002FA678 /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA95C6E616786E37002FA678 /* FirstViewController_iPhone.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA95C6B916786E07002FA678 /* BCTextField-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BCTextField-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA95C6BD16786E07002FA678 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA95C6BF16786E07002FA678 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA95C6C116786E07002FA678 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA95C6C516786E07002FA678 /* BCTextField-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BCTextField-Demo-Info.plist"; sourceTree = "<group>"; };
+		AA95C6C716786E07002FA678 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA95C6C916786E07002FA678 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA95C6CB16786E07002FA678 /* BCTextField-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BCTextField-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		AA95C6CC16786E07002FA678 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA95C6CD16786E07002FA678 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA95C6D416786E29002FA678 /* BCTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCTextField.h; sourceTree = "<group>"; };
+		AA95C6D516786E29002FA678 /* BCTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCTextField.m; sourceTree = "<group>"; };
+		AA95C6D616786E29002FA678 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		AA95C6D716786E29002FA678 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		AA95C6D816786E29002FA678 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		AA95C6D916786E29002FA678 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		AA95C6DA16786E29002FA678 /* SecondViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController_iPad.xib; sourceTree = "<group>"; };
+		AA95C6DB16786E29002FA678 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AA95C6DC16786E29002FA678 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		AA95C6DD16786E29002FA678 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		AA95C6E516786E37002FA678 /* FirstViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController_iPad.xib; sourceTree = "<group>"; };
+		AA95C6E616786E37002FA678 /* FirstViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController_iPhone.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA95C6B616786E07002FA678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA95C6BE16786E07002FA678 /* UIKit.framework in Frameworks */,
+				AA95C6C016786E07002FA678 /* Foundation.framework in Frameworks */,
+				AA95C6C216786E07002FA678 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA95C6AE16786E07002FA678 = {
+			isa = PBXGroup;
+			children = (
+				AA95C6C316786E07002FA678 /* BCTextField-Demo */,
+				AA95C6BC16786E07002FA678 /* Frameworks */,
+				AA95C6BA16786E07002FA678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA95C6BA16786E07002FA678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA95C6B916786E07002FA678 /* BCTextField-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA95C6BC16786E07002FA678 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA95C6BD16786E07002FA678 /* UIKit.framework */,
+				AA95C6BF16786E07002FA678 /* Foundation.framework */,
+				AA95C6C116786E07002FA678 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA95C6C316786E07002FA678 /* BCTextField-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AA95C6E916786E4F002FA678 /* BCTextField */,
+				AA95C6CC16786E07002FA678 /* AppDelegate.h */,
+				AA95C6CD16786E07002FA678 /* AppDelegate.m */,
+				AA95C6D616786E29002FA678 /* FirstViewController.h */,
+				AA95C6D716786E29002FA678 /* FirstViewController.m */,
+				AA95C6E516786E37002FA678 /* FirstViewController_iPad.xib */,
+				AA95C6E616786E37002FA678 /* FirstViewController_iPhone.xib */,
+				AA95C6DB16786E29002FA678 /* SecondViewController.h */,
+				AA95C6DC16786E29002FA678 /* SecondViewController.m */,
+				AA95C6DD16786E29002FA678 /* SecondViewController.xib */,
+				AA95C6DA16786E29002FA678 /* SecondViewController_iPad.xib */,
+				AA95C6C416786E07002FA678 /* Supporting Files */,
+			);
+			path = "BCTextField-Demo";
+			sourceTree = "<group>";
+		};
+		AA95C6C416786E07002FA678 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA95C6C516786E07002FA678 /* BCTextField-Demo-Info.plist */,
+				AA95C6C616786E07002FA678 /* InfoPlist.strings */,
+				AA95C6C916786E07002FA678 /* main.m */,
+				AA95C6CB16786E07002FA678 /* BCTextField-Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA95C6E916786E4F002FA678 /* BCTextField */ = {
+			isa = PBXGroup;
+			children = (
+				AA95C6D416786E29002FA678 /* BCTextField.h */,
+				AA95C6D516786E29002FA678 /* BCTextField.m */,
+				AA95C6D816786E29002FA678 /* left.png */,
+				AA95C6D916786E29002FA678 /* right.png */,
+			);
+			name = BCTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA95C6B816786E07002FA678 /* BCTextField-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA95C6D116786E07002FA678 /* Build configuration list for PBXNativeTarget "BCTextField-Demo" */;
+			buildPhases = (
+				AA95C6B516786E07002FA678 /* Sources */,
+				AA95C6B616786E07002FA678 /* Frameworks */,
+				AA95C6B716786E07002FA678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BCTextField-Demo";
+			productName = "BCTextField-Demo";
+			productReference = AA95C6B916786E07002FA678 /* BCTextField-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA95C6B016786E07002FA678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AA95C6B316786E07002FA678 /* Build configuration list for PBXProject "BCTextField-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA95C6AE16786E07002FA678;
+			productRefGroup = AA95C6BA16786E07002FA678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA95C6B816786E07002FA678 /* BCTextField-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA95C6B716786E07002FA678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA95C6C816786E07002FA678 /* InfoPlist.strings in Resources */,
+				AA95C6E016786E29002FA678 /* left.png in Resources */,
+				AA95C6E116786E29002FA678 /* right.png in Resources */,
+				AA95C6E216786E29002FA678 /* SecondViewController_iPad.xib in Resources */,
+				AA95C6E416786E29002FA678 /* SecondViewController.xib in Resources */,
+				AA95C6E716786E37002FA678 /* FirstViewController_iPad.xib in Resources */,
+				AA95C6E816786E37002FA678 /* FirstViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA95C6B516786E07002FA678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA95C6CA16786E07002FA678 /* main.m in Sources */,
+				AA95C6CE16786E07002FA678 /* AppDelegate.m in Sources */,
+				AA95C6DE16786E29002FA678 /* BCTextField.m in Sources */,
+				AA95C6DF16786E29002FA678 /* FirstViewController.m in Sources */,
+				AA95C6E316786E29002FA678 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA95C6C616786E07002FA678 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA95C6C716786E07002FA678 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA95C6CF16786E07002FA678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA95C6D016786E07002FA678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA95C6D216786E07002FA678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BCTextField-Demo/BCTextField-Demo-Prefix.pch";
+				INFOPLIST_FILE = "BCTextField-Demo/BCTextField-Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA95C6D316786E07002FA678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BCTextField-Demo/BCTextField-Demo-Prefix.pch";
+				INFOPLIST_FILE = "BCTextField-Demo/BCTextField-Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA95C6B316786E07002FA678 /* Build configuration list for PBXProject "BCTextField-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA95C6CF16786E07002FA678 /* Debug */,
+				AA95C6D016786E07002FA678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA95C6D116786E07002FA678 /* Build configuration list for PBXNativeTarget "BCTextField-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA95C6D216786E07002FA678 /* Debug */,
+				AA95C6D316786E07002FA678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA95C6B016786E07002FA678 /* Project object */;
+}
